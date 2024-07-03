@@ -1,0 +1,57 @@
+.container-fluid {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgb(249, 239, 239);
+    
+  }
+  
+  h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid rgba(185, 196, 207, 0.934);
+    position: relative;
+  }
+  
+  th {
+    background-color: rgba(76, 120, 163, 0.573);
+    color: rgb(43, 38, 38);
+  }
+  
+  td {
+    background-color: #4d667b9a; /* Light blue background */
+    border: 1px solid rgba(214, 225, 235, 0.742);
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px;
+  }
+  
+  td img {
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  @media (max-width: 768px) {
+    th, td {
+      font-size: 14px;
+    }
+  }
+  
+  .table{
+    border-radius: 24px;
+  }

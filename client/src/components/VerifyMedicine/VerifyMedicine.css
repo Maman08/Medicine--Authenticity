@@ -1,0 +1,30 @@
+.main-container {
+    color: white;
+    padding: 20px;
+     background-color: rgba(119, 157, 192, 0.847);
+     max-width: 23vw;
+     display: flex;
+     justify-content: center;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
+  
+  #result h2 {
+    color: #4CAF50; /* Green color for success */
+  }
+  
+  #result p {
+    margin: 5px 0;
+  }
+  
+  #result a {
+    color: #0654a3; /* Blue color for link */
+    text-decoration: none;
+  }
+  
+  #result a:hover {
+    text-decoration: underline;
+  }
+  
