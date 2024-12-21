@@ -9,7 +9,7 @@ This project is a decentralized platform to verify the authenticity of medicines
 - **QR Code Generation**: A unique QR code is generated for each batch of medicine. This QR code is linked to the encrypted data on the blockchain.
 - **Authenticity Verification**: Consumers can scan the QR code on the product to check its authenticity and retrieve the details stored on the blockchain.
 - **Blockchain-Backed**: All data is securely stored on the Ethereum blockchain using smart contracts, ensuring transparency and immutability.
-- **Decentralized**: No central authority manages the data, ensuring complete decentralization of the medicine verification process.
+- **Decentralized**: No central authority manages the data, ensuring complete decentralization of the medicine verification process..
 
 ## Tech Stack
 
