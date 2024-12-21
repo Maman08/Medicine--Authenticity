@@ -46,7 +46,6 @@ import './App.css';
 import bgImg from "./assets/Blockchain-2-Gif.gif"
 import Manufacturer from "./components/Manufacturer/Manufacturer"
 import Memos from "./components/Memos/Memos"
-import { ethers } from 'ethers';
 import abi from './contractJson/Medicalsys.json'; 
 import VerifyMedicine from './components/VerifyMedicine/VerifyMedicine';
 
