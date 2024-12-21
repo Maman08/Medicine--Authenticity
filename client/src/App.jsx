@@ -47,7 +47,7 @@ import bgImg from "./assets/Blockchain-2-Gif.gif"
 import Manufacturer from "./components/Manufacturer/Manufacturer"
 import Memos from "./components/Memos/Memos"
 import { ethers } from 'ethers';
-import abi from './contractJson/Medicalsys.json'; // Update path as per your project structure
+import abi from './contractJson/Medicalsys.json'; 
 import VerifyMedicine from './components/VerifyMedicine/VerifyMedicine';
 
 function App() {
@@ -57,7 +57,7 @@ function App() {
   useEffect(() => {
     const template = async () => {
       const contractAddress = "0x4d3Daf9b7876befF2D3b3A5400C6fD9AA15943D0";
-      const contractABI = abi.abi; // Ensure this path is correct
+      const contractABI = abi.abi; 
 
       try {
         const { ethereum } = window;
@@ -68,7 +68,7 @@ function App() {
           window.ethereum.on("accountChanged",()=>{
             window.location.reload()
           })
-          setAccount(accounts[0]); // Assuming you want the first account
+          setAccount(accounts[0]); 
 
           const provider = new ethers.providers.Web3Provider(window.ethereum);
           const signer = provider.getSigner();
