@@ -47,9 +47,4 @@ Follow these steps to run the project locally on your machine:
    ```bash
    npm run dev   
    
-
-
-      
-
-```
 ![alt text](image.png)
