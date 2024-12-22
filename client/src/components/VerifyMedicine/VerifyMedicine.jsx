@@ -12,10 +12,10 @@ const VerifyMedicine = () => {
 
   useEffect(() => {
     const scanner = new Html5QrcodeScanner(
-      'reader', // Id of the HTML element
+      'reader', 
       {
-        qrbox: { width: 250, height: 250 }, // Size of QR code scanning box
-        fps: 20, // Frames per second
+        qrbox: { width: 250, height: 250 }, 
+        fps: 20, 
       },
       /* verbose= */ false
     );
@@ -30,10 +30,8 @@ const VerifyMedicine = () => {
           const bytes = CryptoJS.AES.decrypt(result, 'secret');
           const decryptedText = bytes.toString(CryptoJS.enc.Utf8);
 
-          // Try parsing the decrypted text as JSON
           const decryptedData = JSON.parse(decryptedText);
 
-          // Check if the decrypted data is valid
           if (decryptedData && decryptedData.name && decryptedData.batchNumber && decryptedData.expiryDuration) {
             setDecryptedData(decryptedData);
             setIsAuthentic(true);
@@ -54,7 +52,6 @@ const VerifyMedicine = () => {
       }
     );
 
-    // Cleanup function
     return () => {
       scanner.clear();
     };
